@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map {|string|string.upcase} 
     new_array = planeteer_calls
     puts new_array
-  end
+  
     # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
