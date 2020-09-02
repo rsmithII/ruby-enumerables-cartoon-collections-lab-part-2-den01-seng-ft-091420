@@ -1,10 +1,18 @@
 def square_array(array)
+  array.map do |element|
+    element * element
+  end
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
 end
 
 def summon_captain_planet(planeteer_calls)
-  # Use an Enumerable to capitalize and add '!' to every element in the passed in array
+  new_array = []
+  planeteer_calls.each do |planeteer_calls|
+    new_array = planeteer_calls.capitalize!()
+    puts new_array
+  end
+    # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
 
