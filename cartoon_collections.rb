@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map {|planeteer_calls| planeteer_calls.capitalize!()}
-    new_array = planeteer_calls.capitalize!()
+    new_array = planeteer_calls
     new_array
 
     # Use an Enumerable to capitalize and add '!' to every element in the passed in array
