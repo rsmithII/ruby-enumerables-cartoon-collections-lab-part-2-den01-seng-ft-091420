@@ -8,8 +8,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   new_array = []
-  calls = planeteer_calls
-  calls.map {|planeteer_calls| planeteer_calls.capitalize!()}
+  planeteer_calls.map {|call| planeteer_calls.capitalize!()}
     new_array = planeteer_calls
     new_array
 
